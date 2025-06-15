@@ -17,7 +17,7 @@ header {
 
 .banner-container {
   width: 100%;
-  height: 160px; /* Reduced height for a better look */
+  height: 300x; 
   overflow: hidden;
 }
 
@@ -32,8 +32,8 @@ header {
 }
 
 .profile-pic {
-  width: 64px;     /* Smaller than before */
-  height: 64px;
+  width: 180px;     /* Smaller than before */
+  height: 180px;
   border-radius: 50%;
   margin-top: -32px; /* Half the height for perfect overlap */
   border: 2px solid white;
