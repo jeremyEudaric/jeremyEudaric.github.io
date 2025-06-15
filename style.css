@@ -31,9 +31,11 @@ header {
 }
 
 .profile-container {
-  text-align: center;
+  text-align: left;
   position: relative;
-  margin-top: -90px;
+  margin-top: 0;          
+  padding: 1rem 1.5rem;   
+}
 }
 
 .profile-pic {
