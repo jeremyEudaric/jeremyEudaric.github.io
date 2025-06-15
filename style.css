@@ -16,8 +16,8 @@ header {
 }
 
 .banner-container {
-  width: 100%;
-  height: 180px;
+  width: 50%;
+  height: 120px;
   overflow: hidden;
 }
 
@@ -29,8 +29,8 @@ header {
 
 /* Profile picture (below banner) */
 .profile-pic {
-  width: 96px;
-  height: 96px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-top: -48px;
   border: 3px solid white;
