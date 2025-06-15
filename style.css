@@ -1,23 +1,86 @@
+/* Reset some spacing */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
   color: #333;
 }
+
 header {
-  background-color: #f4f4f4;
-  padding: 20px;
-}
-header nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #333;
-}
-section {
-  padding: 20px;
-}
-footer {
-  background-color: #f4f4f4;
   text-align: center;
-  padding: 10px;
+  margin-bottom: 2rem;
+}
+
+/* Banner image */
+.banner-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 300px;
+}
+
+/* Profile picture styling */
+.profile-container {
+  margin-top: -60px; /* pull up to overlap the banner a bit */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  background-color: #fff;
+}
+
+/* Name and navigation */
+h1 {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section spacing */
+section {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  padding: 0 1rem;
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #eee;
+  font-size: 0.9rem;
+  color: #666;
 }
