@@ -34,8 +34,7 @@ header {
 /* Profile and name (below banner) */
 .profile-container {
   text-align: center;
-  margin-top: -60px; /* pulls profile pic slightly up if desired */
-  z-index: 10;
+  margin-top: -60px;;
 }
 
 .profile-pic {
