@@ -1,86 +1,84 @@
-/* Reset some spacing */
+/* General */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
   color: #333;
 }
 
+/* Header with banner */
 header {
-  text-align: center;
-  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
 }
 
-/* Banner image */
 .banner-container {
   width: 100%;
+  height: 180px;
   overflow: hidden;
 }
 
 .banner {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
   object-fit: cover;
-  max-height: 300px;
 }
 
-/* Profile picture styling */
-.profile-container {
-  margin-top: -60px; /* pull up to overlap the banner a bit */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
+/* Profile picture (below banner) */
 .profile-pic {
-  width: 140px;
-  height: 140px;
+  width: 96px;
+  height: 96px;
   border-radius: 50%;
-  border: 4px solid white;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  background-color: #fff;
+  margin-top: -48px;
+  border: 3px solid white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
 
-/* Name and navigation */
+/* Name and Nav */
 h1 {
-  margin-top: 1rem;
-  font-size: 1.8rem;
+  margin: 10px 0 5px;
+  font-size: 1.5rem;
 }
 
 nav {
-  margin-top: 0.5rem;
+  margin-bottom: 20px;
 }
 
 nav a {
-  margin: 0 1rem;
+  margin: 0 10px;
+  color: #0073b1; /* LinkedIn blue */
   text-decoration: none;
-  color: #0066cc;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 0.95rem;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-/* Section spacing */
+/* Sections */
 section {
-  max-width: 800px;
-  margin: 0 auto 3rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
   padding: 0 1rem;
 }
 
 h2 {
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.4rem;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
   margin-bottom: 1rem;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  padding: 2rem 0;
-  background-color: #eee;
-  font-size: 0.9rem;
-  color: #666;
+  padding: 1.5rem 0;
+  font-size: 0.85rem;
+  color: #888;
 }
+
